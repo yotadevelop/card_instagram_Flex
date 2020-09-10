@@ -1,0 +1,48 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.caja{
+    border: 1px solid grey;
+    
+}
+
+.titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.perfil{
+    
+    display: flex;
+    align-items: center;
+}
+
+.perfil img{
+    height: 40px;
+    border-radius: 800px;
+    margin-right: 8px;
+}
+
+.perfil p{
+font-weight: bold;
+}
+
+.contenido img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.final{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.opciones img{
+    margin-right: 12px;
+    align-items: center;
+}
